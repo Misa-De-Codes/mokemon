@@ -12,7 +12,7 @@ export default class Random {
         this.email = email;
         this.dob = dob;
         this.phone = phone;
-        this.region = region;
+        this.region = region; 
 
     // port methods
         this.avatar = avatar;

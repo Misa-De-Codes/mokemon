@@ -1,10 +1,9 @@
 {
-  "name": "randomjs",
+  "name": "mocky-mocky",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node ./src/index.js",
     "dev": "nodemon ./src/index.js"
   },
   "keywords": ["anime", "random", "profile", "generator", "devDependencies"],
