@@ -1,0 +1,33 @@
+{
+  "name": "mokemon",
+  "version": "1.0.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Misa-De-Codes/mokemon.git"
+  },
+  "description": "A random mock data generator for frontend development and debugging purposes.",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "mock",
+    "random",
+    "debugger"
+  ],
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "author": "Musa-De-Codes (https://github.com/Misa-De-Codes/)",
+  "contributors": [
+    "Sushi Chan"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

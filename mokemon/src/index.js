@@ -2,7 +2,7 @@ import { avatar, getImage } from "./functions/pfp.js";
 import { fullName, username, email, dob, gender, phone, region } from "./functions/text.js";
 
 
-export default class Random {
+export default class Mokemon {
     // user data
     constructor() {
         this.avatar = avatar;
