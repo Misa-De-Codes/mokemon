@@ -14,20 +14,20 @@ export default class Random {
         this.phone = phone;
         this.region = region;
 
-        // port methods
+    // port methods
         this.avatar = avatar;
         this.getImage = getImage;
     }
 
     getUser = () => {
         return {
-            avatar: this.avatar,
-            fullName: this.fullName,
-            username: this.username,
-            email: this.email,
-            phone: this.phone,
-            dob: this.dob,
-            location: this.location,
+            avatar: this.avatar(),
+            fullName: this.fullName(),
+            username: this.username(),
+            email: this.email(),
+            phone: this.phone(),
+            dob: this.dob(),
+            region: this.region(),
         }
     }
 

@@ -82,5 +82,6 @@ random.region('new york') // New york
 random.region('london') // London
 ```
 
-
+### 8. random.getUser()
+Comming soon...
 

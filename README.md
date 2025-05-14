@@ -56,4 +56,4 @@ Random.js has a lot of methods and properties to make frontend development easie
 
 ## License
 
-This package is licensed under ISC.
+This package is licensed under MIT.
